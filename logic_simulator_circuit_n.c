@@ -12,6 +12,7 @@ void get_byte(int start, int stop, int sig[], int byte[]);
 int calculate_circuit1(int A[N], int B[N]);
 int calculate_circuit2(int A[N], int B[N]);
 
+
 int main() {
     int A[N], B[N];
     int choice;
