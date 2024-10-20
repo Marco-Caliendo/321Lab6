@@ -5,7 +5,7 @@
 // Function prototype
 void printTruthTable(int gate);
 
-int main() {
+int main2() {
     char choice;
     int a, b, result;
 

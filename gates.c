@@ -34,3 +34,23 @@ int XOR_gate(int a, int b) {
 int XNOR_gate(int a, int b) {
     return !(a ^ b);
 }
+
+// AND N gate
+int AND_N(int bitsA[], int bitsB[], int n) {
+    for (int i = 0; i < n; i++) {
+        if (!(bitsA[i] && bitsB[i])) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+// OR N gate
+int OR_N(int bitsA[], int bitsB[], int n) {
+    for (int i = 0; i < n; i++) {
+        if (bitsA[i] || bitsB[i]) {
+            return 1;
+        }
+    }
+    return 0;
+}

@@ -8,4 +8,6 @@ add_executable(321L6
         gates.h
         logic_simulator.c
         logic_simulator_circuit.c
-        logic_simulator_circuit.h)
+        logic_simulator_circuit.h
+        logic_simulator_circuit_n.c
+)
